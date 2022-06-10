@@ -38,7 +38,7 @@ android {
         main.java.srcDirs += 'src/main/kotlin'
     }
 
-    flavorDimensions "versions", "distribute"
+    flavorDimensions "versions"
     productFlavors {
         dev {
             dimension "versions"
@@ -53,11 +53,11 @@ android {
             dimension "versions"
         }
         appCenter {
-            dimension "distribute"
+            dimension "versions"
         }
 
         googlePlay {
-            dimension "distribute"
+            dimension "versions"
         }
     }
 
