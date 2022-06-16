@@ -18,7 +18,7 @@ echo "Building with flavor $FLAVOR"
 flutter channel stable
 flutter doctor
 flutter pub get
-flutter build apk --flavor acceptanceappcenter
+flutter build apk --flavor acceptance
 
 # copy the APK where AppCenter will find it
 mkdir -p android/app/build/outputs/apk/; mv build/app/outputs/flutter-apk/app-acceptanceappcenter-release.apk $_
