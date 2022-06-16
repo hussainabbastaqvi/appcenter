@@ -52,13 +52,13 @@ android {
         production {
             dimension "versions"
         }
-        appCenter {
+       /* appCenter {
             dimension "distribute"
         }
 
         googlePlay {
             dimension "distribute"
-        }
+        }*/
     }
 
 
